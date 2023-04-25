@@ -1,0 +1,212 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+export default makeStyles((theme) => ({
+  paper: {
+    marginTop: theme.spacing(8),
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    padding: theme.spacing(2),
+  },
+  root: {
+    '& .MuiTextField-root': {
+      margin: theme.spacing(1),
+    },
+  },
+  avatar: {
+    margin: theme.spacing(1),
+    backgroundColor: theme.palette.secondary.main,
+  },
+  form: {
+    width: '100%', // Fix IE 11 issue.
+    marginTop: theme.spacing(3),
+  },
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+  },
+  googleButton: {
+    marginBottom: theme.spacing(2),
+  },
+  expiration: {
+    height: "27px",
+    width: "27px",
+    paddingLeft: "7px",
+    border: "5px solid red",
+    color: "red",
+    borderRadius: "50%",
+    display: "inline-block"
+  },
+  expired:{
+    color: "red !important"
+  },
+  form_container: {
+    display: "flex",
+    gap:"20px",
+    alignItems: "flex-start",
+  },
+  input: {
+    outline: "none",
+    width: "250px",
+    padding: "15px",
+    borderRadius: "10px",
+    backgroundColor: "#edf5f3",
+    margin: "5px 0",
+    fontSize: "14px"
+  },
+  green_btn: {
+    border: "none",
+    outline: "none",
+    padding: "12px 0",
+    backgroundColor: "indigo",
+    borderRadius: "20px",
+    width: "120px",
+    fontWeight: "bold",
+    color: "white",
+    margin: "10px 20px 0 20px",
+    fontSize: "14px",
+    cursor: "pointer",
+  },
+  success_msg: {
+    width: "370px",
+    padding: "15px",
+    margin: "5px 0",
+    fontSize: "14px",
+    backgroundColor: "#5cdd5c",
+    color: "white",
+    borderRadius: "5px",
+    textAlign: "center",
+  },
+  error_msg: {
+    width: "370px",
+    padding: "15px",
+    margin: "5px 0",
+    fontSize: "14px",
+    backgroundColor: "#f34646",
+    color: "#4a437e#4a437e",
+    borderRadius: "5px",
+    textAlign: "center",
+  },
+field: {
+  display: "flex",
+  flexDirection: "column",
+  marginBottom: "20px",
+  width: "100%"
+},
+label: {
+  fontSize: "16px",
+  color: "#3d3d3d",
+  marginBottom: "10px"
+},control: {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  width: "100%",
+}
+,
+text: {
+  width: "100%",
+  padding: "10px",
+  border: "none",
+  borderRadius: "4px",
+  backgroundColor: "#f5f5f5",
+  color: "#3d3d3d",
+  fontSize: "16px",
+  fontFamily: 'Helvetica Neue',
+  marginTop: "5px"
+}
+
+,buttonissuccess: {
+  border: "none",
+  borderRadius: "4px",
+  padding: "10px",
+  fontSize: "16px",
+  fontWeight: "bold",
+  cursor: "pointer",
+  marginRight: "10px",
+  transition: "all 0.3s ease-in-out",
+  backgroundColor: "#5cb85c",
+  color: "#ffffff",
+  marginTop: "5px",
+  marginBottom: "5px"
+}
+,
+buttoniserr: {
+  border: "none",
+  borderRadius: "4px",
+  padding: "10px",
+  fontSize: "16px",
+  fontWeight: "bold",
+  cursor: "pointer",
+  marginRight: "10px",
+  transition: "all 0.3s ease-in-out",
+  backgroundColor: "#d9534f",
+  color: "#ffffff",
+  marginTop: "5px",
+  marginBottom: "5px"
+}
+,pagination :{
+  display: "flex",
+  justifycontent: "center",
+  margintop: "20px",
+},
+
+pageitem: {
+ display: 'inline-block',
+ marginRight: '5px',
+},
+pagelink: {
+    padding: '5px 10px',
+    border: '1px solid #ccc',
+    color: 'black',
+    cursor: 'pointer',
+},
+active: {
+    backgroundColor: 'indigo',
+    color: '#fff',
+    borderColor: 'indigo',
+},
+disabled: {
+    cursor: 'not-allowed',
+    opacity: 0.5,
+},
+previous: {
+  pagelink: {
+      padding: '5px 10px',
+      border: '1px solid #ccc',
+      color: '#ccc',
+      cursor: 'pointer',
+},
+    pagelinkHover: {
+      backgroundColor: '#black',
+    },
+  },
+next: {
+  pagelink: {
+      padding: '5px 10px',
+      border: '1px solid #ccc',
+      color: '#333',
+      cursor: 'pointer',
+},
+pagelinkHover: {
+      backgroundColor: 'black',
+},
+pagelinkMarginLeft: {
+      marginLeft: '5px',},
+  },
+  h2: {
+    textAlign: 'center',
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+  },
+}))
+
+
+
+  
+
+// button.is-err:hover {
+//   background-color: #c9302c;
+// }
+  

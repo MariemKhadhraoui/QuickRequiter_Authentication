@@ -1,0 +1,40 @@
+span.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .hero1 {
+    background-image: url("../../../public/images/bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1100px;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+  }
+  .hero1 #heading h3 {
+    color: #fff;
+  }
+  .hero1 #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 400px) {
+    .container {
+      background-size: contain;
+    }
+  
+    .hero1 {
+      padding-top: 50%;
+    }
+    .hero1 .row {
+      width: 100%;
+    }
+  }
+  
